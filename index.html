@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/Estilos/style.css">
+    <script src="src/Juego/main.js" type="module"></script>
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container my-5" id="buttons-actions">
+        <button class="btn btn-outline-success" id="juego-nuevo">Juego Nuevo</button>
+        <button class="btn btn-outline-info" id="tomar-carta">Tomar Carta</button>
+        <button class="btn btn-outline-danger" id="parar">Parar</button>
+      </div>
+
+      <!-- Sección del Jugador -->
+  <div class="container my-3">
+    <h2 class="text-primary mb-3">Jugador</h2>
+    <div id="cartas-jugador"></div>
+    <div id="puntuacion-jugador" class="mt-2 fw-bold"></div>
+  </div>
+
+  <!-- Sección del Dealer (PC) -->
+  <div class="container my-3">
+    <h2 class="text-danger mb-3">Dealer (PC)</h2>
+    <div id="cartas-pc"></div>
+    <div id="puntuacion-pc" class="mt-2 fw-bold"></div>
+  </div>
+    </div>
+
+    
+  </body>
+</html>

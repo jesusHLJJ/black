@@ -1,0 +1,12 @@
+#cartas-jugador, #cartas-pc {
+    min-height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 8px;
+  }
